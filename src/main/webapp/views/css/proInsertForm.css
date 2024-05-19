@@ -1,0 +1,78 @@
+@charset "UTF-8";
+.main{
+	display : flex;
+	flex-direction: column;
+	align-items: center;
+}
+form{
+	display : flex;
+	flex-direction: row;
+	padding : 10px;
+}
+
+.productAdd,.imgAdd{
+	padding : 10px;
+}
+#productImgDragZone,#textImgDragZone{
+	border-radius :10px;
+	border : 1px dashed black;
+	width : 200px;
+	height: 100px;
+	text-align: center;
+}
+#productImgPreview,#textImgPreview{
+	display: flex;
+	flex-direction: row;
+}
+.inserTable > tr,.insertTd,th{
+	border-top : 1px solid darkgray;
+}
+.inserTable > th{
+	width:30%;
+}
+.inserTable{
+	height : 500px;
+	width : 1000px;	
+	text-align: center;
+	border-collapse: collapse;
+}
+textarea {
+	width: 100%;
+	height:100%;
+	border-style : none;
+}
+.input{
+	width: 100%;
+	height:100%;
+	border-style : none;
+}
+select{
+	width: 30%;
+	height:30%;
+}
+.submit{
+	color : white;
+	font-weight : bolder;
+	font-size : 20px;
+	border-radius :10px;
+	border-style : none;
+	width: 300px;
+	height : 50px;
+	background-color: darkgray;
+}
+.cancel{
+	margin-top:10px;
+	color : white;
+	font-weight : bolder;
+	font-size : 20px;
+	border-radius :10px;
+	border-style : none;
+	width: 300px;
+	height : 50px;
+	background-color: darkgray;
+}
+.insert{
+	height : 40%;
+	border : 2px solid darkgray;
+	border-radius: 7px;
+}

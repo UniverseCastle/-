@@ -1,0 +1,45 @@
+@charset "EUC-KR";
+BUTTON, INPUT	{
+	background-color: white;
+	color: gray; 
+	border: 1px solid lightgray;
+	border-radius: 0; 
+	padding: 5px 10px; 
+	font-size: 16px; 
+	cursor: pointer;
+}
+
+.emphasis	{
+	background-color: gray;
+	color: white; 
+	border: 1px solid lightgray;
+	border-radius: 0; 
+	padding: 5px 10px; 
+	font-size: 16px; 
+	cursor: pointer;
+}	
+
+.maintable	{
+	
+	font-size:16px;
+	border-collapse:collapse;
+}
+.maintable TD,TH	{
+	padding:10px;
+}
+
+A	{
+	text-decoration: none;
+	color: inherit;
+}
+
+.hr	{
+	margin: 10px 0;
+	border: none;
+	border-top: 1px solid gray; 
+	width: 882px; 
+}
+
+.subtable2{
+	margin-left : 457px;
+}
